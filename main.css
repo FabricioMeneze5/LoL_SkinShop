@@ -1,0 +1,261 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Ruwudu&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Ruwudu', serif;
+}
+
+body {
+    background: rgb(197, 196, 196);
+}
+
+.container {
+    width: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 0.5%;
+}
+
+h1, h2, h3 {
+    font-family: 'Lobster', cursive;
+    font-weight: normal;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+h2 {
+    font-size: 32px;
+}
+
+h3 {
+    font-size: 25px;
+}
+
+h1:hover{
+    text-shadow: 0px 0px 8px#08d7f7;
+}
+
+header,
+footer {
+    background-image: linear-gradient(#333333, #1d1d1d,#333333);
+    padding: 25px 0;
+    color: white;
+}
+
+header nav li {
+    display: inline;
+    margin-left: 5px;
+    font-size: 18px;
+}
+
+header li a {
+    text-decoration: none;
+    color: white;
+    padding: 7px;
+}
+
+header li a:hover {
+    padding: 6px;
+    background-color: #333335;
+    border: 1px solid #08d7f7;
+    border-radius: 5px;
+}
+
+.dropdown1 {
+    display: inline-block;
+}
+
+.dropdown2 {
+    position: relative;
+    display: inline-block;
+    width: auto;
+}
+
+.dropdown3 {
+    display: none;
+    position: absolute;
+    background-color: #23232493;
+    border: solid 1px #08d7f7;
+    border-top: 0;
+    border-radius: 0px 0px 5px 5px;
+}
+
+.dropdown3 a {
+    display: block;
+    text-align: center;
+}
+
+.dropdown1:hover .dropdown3 {
+    display: block;
+}
+
+header .container,
+section .container,
+.cards {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#tristanaBase {
+    width: 50%;
+    height: 500px;
+    object-fit: none;
+    object-position: 70% 15%;
+    margin-right: 2%;
+    box-shadow: 0 0 8px;
+}
+
+section .container {
+    align-items: flex-start;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.descricao {
+    padding: 10px;
+    background-color: #86868682;
+    box-shadow: 0 0 8px;
+}
+
+section .container li {
+    display: inline;
+}
+
+#habilidades img {
+    width: 50px;
+    height: 50px;
+}
+
+section h2,
+section p,
+section h3 {
+    margin-bottom: 8px;
+}
+
+#secSkins .container,
+#secBuy .container {
+    display: block;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(#333333,#7d7d7d,#303030);
+    max-width: 250px;
+    height: 350px;
+    padding: 5px;
+    margin: 2%;
+    box-shadow: 0px 0px 8px;
+}
+
+.card img {
+    height: 300px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.card p {
+    color: white;
+    margin-top: 8px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.card:hover {
+    border: 1px solid #08d7f7;
+    box-shadow: 0px 0px 8px#08d7f7;
+}
+
+.social {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+    margin-bottom: 50px;
+}
+
+.social1 {
+    margin-right: 30%;
+    padding: 10px;
+    background-color: #86868682;
+    box-shadow: 0 0 8px;
+}
+
+.social2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+
+form input,
+select,
+form button{
+    display: block;
+    width: 250px;
+    margin-bottom: 10px;
+    padding: 8px;
+}
+
+.checkboxDiv {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    width: 250px;
+    height: auto;
+    margin-bottom: 8px;
+    background-color: #959595;
+}
+
+.checkboxDiv input{
+    display: inline;
+    width: 20px;
+}
+
+.checkboxDiv p {
+    display: inline-block;
+    margin: 3%;
+    text-align: center;
+}
+
+form button {
+    background-color: #333333;
+    color: white;
+    height: 50px;
+    font-size: 15px;
+}
+
+form button:hover {
+    padding: 5px;
+    background-color: #333335;
+    border: 2px solid #08d7f7;
+    border-radius: 3px;
+}
+
+.social-links li {
+    display: inline;
+    margin-right: 8px;
+}
+
+.social-links a {
+    text-decoration: none;
+}
+
+.social-links img {
+    height: 32px;
+}
+
+footer {
+    padding: 10px 0;
+}
